@@ -10,9 +10,9 @@ try:
     input1 = browser.find_element(By.ID, "ember33")
     input1.click()
     input2 = browser.find_element(By.ID, "id_login_email")
-    input2.send_keys("atticus@inbox.ru")
+    input2.send_keys("*********")
     input3 = browser.find_element(By.ID, "id_login_password")
-    input3.send_keys("Blink182")
+    input3.send_keys("******")
     button = browser.find_element(By.CLASS_NAME, "sign-form__btn")
     button.click()
 
